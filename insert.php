@@ -14,7 +14,7 @@ $stmt->bindParam(':email', $_POST['email']);
 $stmt->execute();
 
 // Redirect the user to the homepage
-header('Location: index.php');
+header('Location: index.html');
 
 }
 
