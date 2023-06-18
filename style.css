@@ -1,0 +1,15 @@
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    background-color: aquamarine;
+}
+
+form {
+    border: solid black;
+    width: auto;
+    height: auto;
+}

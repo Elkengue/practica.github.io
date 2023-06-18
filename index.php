@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registro</title>
+</head>
+<body>
+<form action="insert.php" method="post">
+    <h1>Ingresa Tus Datos</h1>
+    <hr>
+       <input type="text" name="name" placeholder="Nombre Completo">
+       <input type="text" name="email" placeholder="Correo Electronico">
+       <input type="submit" value="Registrar">
+</form>
+</body>
+</html>
